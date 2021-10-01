@@ -1,0 +1,47 @@
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: auto;
+}
+td, th {
+    border: 1px solid;
+    padding: 5px;
+    width: 200px;
+}
+.button {
+    width: 120px;
+    text-align: center;
+}
+.name {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.name:hover {
+    background-color: #bfbaba;
+}
+tr:nth-child(2n) {
+    background: #eeeaea;
+}
+
+th {
+    background-color: #303030;
+    color: white;
+    border: black;
+}
+.buttonTh {
+    text-align: center;
+    width: 120px;
+}
+@media screen and (max-width: 610px) {
+    td, th {
+        width: 100px;
+        font-size: 10px;
+    }
+    .button {
+        width: 60px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+}
